@@ -7,5 +7,29 @@
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/fruits_development</jdbc-url>
     </data-source>
+    <data-source source="LOCAL" name="Rails fruits: test" uuid="d79c45a2-cd75-49e0-8af6-b67a7f16a307">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/fruits_test</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails fruits: production" uuid="fa1de6f2-7996-4b8f-8a86-6ca367c9e6b4">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/fruits_production</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="Rails fruits: development" uuid="d0e5dc3e-d72e-4f01-8f59-3b97a042b175">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <imported>true</imported>
+      <remarks>$PROJECT_DIR$/config/database.yml</remarks>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://127.0.0.1:5432/fruits_development</jdbc-url>
+    </data-source>
   </component>
 </project>
